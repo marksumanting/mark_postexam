@@ -43,6 +43,10 @@ while True:
       feelings_list.append("relaxed")
       encouragement_list.append("Good for you!")
       counter += 1 
+    if each_word == "free":
+      feelings_list.append("free")
+      encouragement_list.append("Do whatever you want!")
+      counter += 1
       
      if each_word == "worried":
       feelings_list.append("worried")
