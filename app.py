@@ -44,6 +44,11 @@ while True:
       encouragement_list.append("Good for you!")
       counter += 1 
       
+     if each_word == "worried":
+      feelings_list.append("worried")
+      encouragement_list.append("don't think so much about your exam results")
+      counter += 1  
+      
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
