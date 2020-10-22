@@ -43,6 +43,10 @@ while True:
       feelings_list.append("relaxed")
       encouragement_list.append("Good for you! You deserve that rest!")
       counter += 1 
+    if each_word == "mad":
+      feelings_list.append("mad")
+      encouragement_list.append("Calm down and think of something that makes you happy!")
+      counter += 1 
     if each_word == "depressed":
       feelings_list.append("depressed")
       encouragement_list.append("Things will get better. Don't give up!")
@@ -50,9 +54,8 @@ while True:
     if each_word == "free":
       feelings_list.append("free")
       encouragement_list.append("Do whatever you want!")
-      counter += 1
-      
-     if each_word == "worried":
+      counter += 1    
+   if each_word == "worried":
       feelings_list.append("worried")
       encouragement_list.append("don't think so much about your exam results")
       counter += 1  
