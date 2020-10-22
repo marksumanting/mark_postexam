@@ -39,6 +39,11 @@ while True:
       feelings_list.append("relaxed")
       encouragement_list.append("Good for you!")
       counter += 1 
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append("Learn to let go.What is done cannot be undone")
+      counter += 1 
+  
       
     if counter == 0:
 
