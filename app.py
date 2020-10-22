@@ -17,7 +17,7 @@ while True:
       counter += 1
     if each_word == "bored":
       feelings_list.append("bored")
-      encouragement_list.append("Find something fun to do")
+      encouragement_list.append("Find something fun to do,such as a hobby you like")
       counter += 1
     if each_word == "tiring":
       feelings_list.append("tiring")
@@ -25,21 +25,24 @@ while True:
       counter += 1
     if each_word == "relieved":
       feelings_list.append("relieved")
-      encouragement_list.append("Relax after the stressful examinations")
+      encouragement_list.append("Relax after the stressful examinations by doing what you love")
       counter += 1
-
     if each_word == "dead tired":
       feelings_list.append("dead tired")
-      encouragement_list.append("Just find something fun to do")
+      encouragement_list.append("It is okay to take a break, we will be here for you")
       counter += 1
-     if each_word == "sad":
+    if each_word == "sad":
       feelings_list.append("sad")
       encouragement_list.append("talk to your friends")
       counter += 1  
-     if each_word == "terrific":
+    if each_word == "terrific":
       feelings_list.append("terrific")
       encouragement_list.append("yay! Your efforts paid off!")
       counter += 1
+    if each_word == "relaxed":
+      feelings_list.append("relaxed")
+      encouragement_list.append("Good for you!")
+      counter += 1 
       
     if counter == 0:
 
