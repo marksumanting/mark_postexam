@@ -53,6 +53,11 @@ while True:
       encouragement_list.append("don't think so much about your exam results")
       counter += 1  
       
+     if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("Your results do not define you, you can always work harder next year!")
+      counter += 1
+      
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
