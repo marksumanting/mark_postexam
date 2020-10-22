@@ -17,7 +17,7 @@ while True:
       counter += 1
     if each_word == "bored":
       feelings_list.append("bored")
-      encouragement_list.append("Find something fun to do")
+      encouragement_list.append("Find something fun to do,such as a hobby you like")
       counter += 1
     if each_word == "tiring":
       feelings_list.append("tiring")
@@ -25,25 +25,46 @@ while True:
       counter += 1
     if each_word == "relieved":
       feelings_list.append("relieved")
-      encouragement_list.append("Relax after the stressful examinations")
+      encouragement_list.append("Relax after the stressful examinations by doing what you love")
       counter += 1
     if each_word == "dead tired":
       feelings_list.append("dead tired")
       encouragement_list.append("It's okay. You should be glad that it's all over! :)")
+
       counter += 1
     if each_word == "sad":
       feelings_list.append("sad")
       encouragement_list.append("talk to your friends")
       counter += 1  
+    if each_word == "terrific":
+      feelings_list.append("terrific")
+      encouragement_list.append("yay! Your efforts paid off!")
+      counter += 1
     if each_word == "relaxed":
       feelings_list.append("relaxed")
       encouragement_list.append("Good for you!")
       counter += 1 
+
      if each_word == "proud":
       feelings_list.append("proud")
       encouragement_list.append("Good job! Great self-esteem!")
       counter += 1 
     
+
+    if each_word == "depressed":
+      feelings_list.append("depressed")
+      encouragement_list.append("Things will get better. Don't give up!")
+      counter += 1 
+    if each_word == "free":
+      feelings_list.append("free")
+      encouragement_list.append("Do whatever you want!")
+      counter += 1
+      
+     if each_word == "worried":
+      feelings_list.append("worried")
+      encouragement_list.append("don't think so much about your exam results")
+      counter += 1  
+
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
