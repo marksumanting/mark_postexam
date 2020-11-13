@@ -27,6 +27,11 @@ while True:
       feelings_list.append("relieved")
       encouragement_list.append("Try to relax after the stressful examinations. You can find something fun to do, like playing games, or maybe just get the rest you deserve")
       counter += 1
+    if each_word == "upset":
+      feelings_list.append("upset")
+      encouragement_list.append("It's okay, you can try again next year.")
+      counter += 1
+
     if each_word == "dead tired":
       feelings_list.append("dead tired")
       encouragement_list.append("You should just find something fun to do!! If not, why not just crawl into your bed and have a well-deserved rest? Remember, sleeping early is a good habit")
